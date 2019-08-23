@@ -94,5 +94,4 @@ var mustRain = pragmaticListener("must");
 print(Math.exp(marginalize(mustRain, "likelihood").score(1)))
 
 print("S_2 production choices, given maximal certainty of rain: ")
-
 speaker2(1)
