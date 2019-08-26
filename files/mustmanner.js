@@ -16,7 +16,9 @@ var rain = {
 
 var mustPrior = {
   "likelihoods": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
-  "probabilities": [1,1,2,2,3,3,4,4,5,5,4]
+  "probabilities": [0.5,1,1,2,2,3,3,4,4,5,5]
+  // should: 
+//    "probabilities": [1,2,2,3,3,4,4,5,5,4,4]
  };
 
 var thetaPrior = function() {
@@ -27,9 +29,9 @@ var statePrior = function() {
   return categorical(rain.probabilities, rain.likelihoods);
 };
 
-var alpha = 1; // optimality parameter
+var alpha = 4; // optimality parameter
 
-var utterances = ["bare", "must", ""];
+var utterances = ["must", "bare", ""];
 var utterancePrior = function() {
   return uniformDraw(utterances);
 };
@@ -70,15 +72,6 @@ var pragmaticListener = function(utterance) {
   });
 };
 
-var speaker2 = cache(function(likelihood) {
-  return Infer({method: "enumerate"}, function() {
-    var utterance = utterancePrior();
-    factor( alpha * (marginalize(pragmaticListener(utterance), "likelihood").score(likelihood)) 
-           - cost[utterance]);
-    return utterance;
-  });
-});
-
 print('Prior prob that threshold for "must" = 1: ')
 print(Math.exp(Infer(thetaPrior).score(1)))
 
@@ -93,5 +86,15 @@ print('Posterior prob speaker is certain of rain: ')
 var mustRain = pragmaticListener("must");
 print(Math.exp(marginalize(mustRain, "likelihood").score(1)))
 
-print("S_2 production choices, given maximal certainty of rain: ")
-speaker2(1)
+// pragmaticListener2("must")
+print("B_phi prior: ")
+print(Infer(statePrior))
+
+print("Theta_must prior: ")
+print(Infer(thetaPrior))
+
+print("B_phi posterior: ")
+print(marginalize(mustRain, "likelihood"))
+
+print("Theta_must posterior: ")
+print(marginalize(mustRain, "theta"))
