@@ -1,28 +1,28 @@
-// priors over speaker beliefs of likelihood of rain
+// EPISTEMIC 'MUST'/'SHOULD': RSA MANNER IMPLICATURE SIMULATION 
+// PRAGMATIC LISTENER INTERPRETS 'IT MUST BE RAINING'; 'IT SHOULD BE RAINING'
 
+// Priors over speaker beliefs of likelihood of rain
 var rain = {
   "likelihoods": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
-//   // speaker assumed to have uniform prior beliefs:
-//   "probabilities": [1,1,1,1,1,1,1,1,1,1,1]
-  // speaker assumed to be highly knowledgable about weather (i.e. certain of its truth or falsity):
-  "probabilities": [10,1,1,1,1,1,1,1,1,1,10]
-//   // speaker assumed to be maximally certain of rain: 
+  // Simulation 1: Speaker assumed to have uniform prior beliefs:
+  "probabilities": [1,1,1,1,1,1,1,1,1,1,1]
+//   // Simulation 3: speaker assumed to be maximally certain of prejacent: 
 //   "probabilities": [1,1,1,1,1,1,1,1,1,1,10]
-//   // speaker assumed to be maximally certain of ~rain:
-//   "probabilities": [10,1,1,1,1,1,1,1,1,1,1]
+//   // Simulation 4: Speaker assumed to know prejacent with certainty: 
+//   "probabilities": [10,1,1,1,1,1,1,1,1,1,10]
 };
 
-// priors over probability thresholds for 'must'
-
-var mustPrior = {
+// Priors over probability thresholds
+var thresholdPrior = {
   "likelihoods": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+  // Simulations 1, 3, and 4: Threshold distribution for 'must': 
   "probabilities": [0.5,1,1,2,2,3,3,4,4,5,5]
-  // should: 
-//    "probabilities": [1,2,2,3,3,4,4,5,5,4,4]
+//   // Simulation 2: Threshold distribution for 'should': 
+//   "probabilities": [1,2,3,4,4,5,5,4,4,3,3]
  };
 
 var thetaPrior = function() {
-  return categorical(mustPrior.probabilities, mustPrior.likelihoods);
+  return categorical(thresholdPrior.probabilities, thresholdPrior.likelihoods);
 };
 
 var statePrior = function() {
