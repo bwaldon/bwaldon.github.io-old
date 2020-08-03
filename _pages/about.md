@@ -18,7 +18,7 @@ social: true
 
 Preferred pronouns: he/him/his
 
-I research the ways in which context, linguistic structure, and social cognition jointly enable successful linguistic communication. This problem has led me to work on linguistic vagueness & imprecision, modality, and implicature - all phenomena which (I think) pose their own unique challenges for how we understand the division of labor between semantics and pragmatics. 
+I research the ways in which context, linguistic structure, and social cognition jointly enable successful linguistic communication. I've worked on linguistic vagueness & imprecision, modality, and implicature - all phenomena which (I think) pose their own unique challenges for how we understand the division of labor between semantics and pragmatics. 
 
 Recently, I've also become interested in discourse contexts - and contextual features - that are often relegated to the margins of linguistic theory. Right now, I'm thinking about how individuals interpret group-authored messages (e.g. how the law is interpreted in judicial contexts) as well as the role of racial bias in pragmatic interpretation. 
 
