@@ -18,9 +18,9 @@ social: true
 
 Preferred pronouns: he/him/his
 
-I research the ways in which context, linguistic structure, and social cognition jointly enable successful linguistic communication. I've worked on linguistic vagueness & imprecision, modality, and implicature - all phenomena which (I think) pose their own unique challenges for how we understand the division of labor between semantics and pragmatics. 
+I research the ways in which context, linguistic structure, and social cognition jointly enable successful linguistic communication. I've worked on linguistic vagueness & imprecision, modality, and implicature - all phenomena which (I think) pose their own unique challenges for how we understand the division of labor between these three things. 
 
-Recently, I've also become interested in discourse contexts - and contextual features - that are often relegated to the margins of linguistic theory. Right now, I'm thinking about how individuals interpret group-authored messages (e.g. how the law is interpreted in judicial contexts) as well as the role of racial bias in pragmatic interpretation. 
+Recently, I've also become interested in discourse contexts - and features of contexts - that are often relegated to the margins of linguistic theory. Right now, I'm thinking about how individuals interpret group-authored messages (e.g. how the law is interpreted in judicial contexts) as well as the role of racial bias in pragmatic interpretation. 
 
 I'm currently in my 4th year of the PhD program at Stanford University. My two qualifying paper projects were advised by Cleo Condoravdi and Judith Degen. Before coming to Stanford, I was a Fulbright scholar at Leibniz-ZAS Berlin and a BA student at UChicago. 
 
