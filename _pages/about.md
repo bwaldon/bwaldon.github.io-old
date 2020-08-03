@@ -22,7 +22,7 @@ I research the ways in which context, linguistic structure, and social cognition
 
 Recently, I've also become interested in discourse contexts - and features of contexts - that are often relegated to the margins of linguistic theory. Right now, I'm thinking about how individuals interpret group-authored messages (e.g. how the law is interpreted in judicial contexts) as well as the role of racial bias in pragmatic interpretation. 
 
-I'm currently in my 4th year of the PhD program at Stanford University. My two qualifying paper projects were advised by Cleo Condoravdi and Judith Degen. Before coming to Stanford, I was a Fulbright scholar at Leibniz-ZAS Berlin and a BA student at UChicago. 
+I'm currently in my 4th year of the Linguistics PhD program at Stanford University. My two qualifying paper projects were advised by Cleo Condoravdi and Judith Degen. Before coming to Stanford, I was a Fulbright scholar at Leibniz-ZAS Berlin and a BA student at UChicago. 
 
 Outside of academia, I like to make lasagna using no-boil or homemade fresh noodles. One should not under any circumstances pre-boil lasagna noodles in water. You might also be tempted to use fresh mozzarella, but I believe in using low-moisture whole milk mozz. The end product is too liquidy otherwise. 
 
